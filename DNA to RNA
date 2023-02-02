@@ -1,0 +1,8 @@
+def dna_to_rna(dna_sequence):
+    rna_sequence = dna_sequence.replace('T', 'U')
+    return rna_sequence
+
+dna_sequence = "ATGCATGC"
+rna_sequence = dna_to_rna(dna_sequence)
+print("DNA sequence:", dna_sequence)
+print("RNA sequence:", rna_sequence)
